@@ -1,0 +1,66 @@
+// For some reason the @themes static still purges all unused colors, so I defined them this way as a workaround
+// Probably not the best solution, but it works 
+    const typeColorMap: Record<string, string> = {
+        normal: 'bg-[#9fa19f]',
+        fire: 'bg-[#e62829]',
+        water: 'bg-[#2980ef]',
+        electric: 'bg-[#fac000]',
+        grass: 'bg-[#3fa129]',
+        ice: 'bg-[#3dcef3]',
+        fighting: 'bg-[#ff8000]',
+        poison: 'bg-[#9141cb]',
+        ground: 'bg-[#915121]',
+        flying: 'bg-[#81b9ef]',
+        psychic: 'bg-[#ef4179]',
+        bug: 'bg-[#91a119]',
+        rock: 'bg-[#afa981]',
+        ghost: 'bg-[#704170]',
+        dragon: 'bg-[#5060e1]',
+        dark: 'bg-[#624d4e]',
+        steel: 'bg-[#60a1b8]',
+        fairy: 'bg-[#ef70ef]',
+    };
+
+    const gradientTypeMap: Record<string, string> = {
+        normal: 'from-[#9fa19f]',
+        fire: 'from-[#e62829]',
+        water: 'from-[#2980ef]',
+        electric: 'from-[#fac000]',
+        grass: 'from-[#3fa129]',
+        ice: 'from-[#3dcef3]',
+        fighting: 'from-[#ff8000]',
+        poison: 'from-[#9141cb]',
+        ground: 'from-[#915121]',
+        flying: 'from-[#81b9ef]',
+        psychic: 'from-[#ef4179]',
+        bug: 'from-[#91a119]',
+        rock: 'from-[#afa981]',
+        ghost: 'from-[#704170]',
+        dragon: 'from-[#5060e1]',
+        dark: 'from-[#624d4e]',
+        steel: 'from-[#60a1b8]',
+        fairy: 'from-[#ef70ef]',
+    };
+
+    const toTypeMap: Record<string, string> = {
+        normal: 'to-[#9fa19f]',
+        fire: 'to-[#e62829]',
+        water: 'to-[#2980ef]',
+        electric: 'to-[#fac000]',
+        grass: 'to-[#3fa129]',
+        ice: 'to-[#3dcef3]',
+        fighting: 'to-[#ff8000]',
+        poison: 'to-[#9141cb]',
+        ground: 'to-[#915121]',
+        flying: 'to-[#81b9ef]',
+        psychic: 'to-[#ef4179]',
+        bug: 'to-[#91a119]',
+        rock: 'to-[#afa981]',
+        ghost: 'to-[#704170]',
+        dragon: 'to-[#5060e1]',
+        dark: 'to-[#624d4e]',
+        steel: 'to-[#60a1b8]',
+        fairy: 'to-[#ef70ef]',
+    };
+
+export { typeColorMap, gradientTypeMap, toTypeMap };
